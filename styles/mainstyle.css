@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+}
+header{
+    background-color: rgba(80, 80, 80, 0.200);
+    width: 100%;
+    
+}
+header h2{
+    text-align: center;
+}
+nav{
+    background: linear-gradient(180deg, rgba(80, 80, 80, 0.200),rgb(63, 63, 63));
+    height: 60px;
+    width: 100%;
+    
+}
+
+.contenedorNav{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.navegacion a{
+    color: white;
+    text-decoration: none;
+    margin-right: 30rem;
+    font-size: 200%;
+    
+}
+.navegacion a:hover{
+    background-color: rgba(145, 75, 211, 0.200);
+
+}
+
+.redes{
+    font-size: 200%;    
+}
+.redes .icon{
+    color:black;
+}
+.redes a{
+    margin-right: 8rem;
+
+}
+.contenedor{
+    position: relative;    
+}
+video{
+    width: 100%;
+}
+.titulo{
+    position: absolute;
+    align-items: center;
+    top: 3%;
+    left: 45%;
+    color: white;
+}
+
+.titIntro{
+    position: absolute;
+    top: 9%;
+    left: 40%;
+    color: white;
+}
+.github{
+    position: absolute;
+    top: 14%;
+    left: 85%;
+    color: white;
+}
+.ciudad{
+    position: absolute;
+    top: 14%;
+    left: 15%;
+    color: white;
+}
+.diseñoWeb{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    width: 250px;
+    height: 300px;
+    background-color: rgba(240, 248, 255, 0.500); 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.diseñoTit{
+    padding-bottom: 50px;
+}
+.appMovil{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 250px;
+    height: 300px;
+    background-color: rgba(240, 248, 255, 0.500);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.appTit{
+    padding-bottom: 50px;
+}
+.nubeAzure{
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    width: 250px;
+    height: 300px;
+    background-color: rgba(240, 248, 255, 0.500);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nubeTit{
+    padding-bottom: 50px;
+}
+
+.piePagina{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 10rem 1rem 10rem;
+    justify-content: space-between;
+
+}
+.piePagina p{
+    color: white;
+}
+img{
+    height: 100px;
+    width: 150px;
+}
+
+
+
+
